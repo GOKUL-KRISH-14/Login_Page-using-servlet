@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <display-name>Demo</display-name>
+
+  <!-- Define the servlet -->
+  <servlet>
+    <servlet-name>loginServlet</servlet-name>
+    <servlet-class>LoginServlet</servlet-class>
+  </servlet>
+
+  <!-- Map the servlet to the /login URL -->
+  <servlet-mapping>
+    <servlet-name>loginServlet</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+</web-app>

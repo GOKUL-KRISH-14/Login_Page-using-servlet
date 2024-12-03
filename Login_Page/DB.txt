@@ -1,0 +1,6 @@
+create database _Gokul;
+use _Gokul;
+create table login(
+email varchar(25)not null,
+password varchar(25)not null
+);
